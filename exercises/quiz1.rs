@@ -13,10 +13,14 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
-// fn calculate_price_of_apples {
+pub fn calculate_price_of_apples(number_of_apples: i16) -> i16 {
+    if number_of_apples > 40 {
+        return number_of_apples * 1;
+    }
+
+    return number_of_apples * 2;
+}
 
 // Don't modify this function!
 #[test]
